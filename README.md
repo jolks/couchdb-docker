@@ -1,5 +1,7 @@
 #### To build latest stable CouchDB image for Docker
 
+The `custom.ini` file contains custom configurations for CouchDB.
+
 ```sh
 # To build the image
 $ docker build -t couchdb:myversion .
